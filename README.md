@@ -1,22 +1,22 @@
-🎵 Music Recommendation System – ML Model Comparison 🎵
+## **🎵 Music Recommendation System – ML Model Comparison 🎵**
 
-📌 Project Overview
+### **📌 Project Overview:**
 
 This project builds a machine learning system to predict whether a user will listen to a song again.  
 The goal is to model user listening behavior and improve music recommendation systems using historical interaction data.
 The project explores multiple machine learning algorithms, performs extensive feature engineering, and compares model performance to identify the best predictive model.
 
-📊 Dataset
+### **📊 Dataset:**
 
 The dataset contains user-song interaction records along with metadata about songs and users.
 
-Main datasets used:
-- train.csv – user-song interaction data with target variable
-- songs.csv – song metadata
-- members.csv – user metadata
-- test.csv – unseen user-song pairs
+Main datasets used
+- train.csv - user-song interaction data with target variable
+- songs.csv - song metadata
+- members.csv - user metadata
+- test.csv - unseen user-song pairs
 
-🎯 Target Variable
+🎯 Target Variable:
 
 The target column represents whether a song should be recommended to a user again.
 
@@ -24,13 +24,14 @@ The target column represents whether a song should be recommended to a user agai
 
 0 - Cannot Recommend again.
 
-The task is to predict this binary outcome using features derived from the datasets.
+(The task is to predict this binary outcome using features derived from the datasets)
 
-⚙️ Project Workflow
+
+### **⚙️ Project Workflow:**
 
 1️⃣ Exploratory Data Analysis
 
-Visualizations and statistical exploration were performed to understand:
+(Visualizations and statistical exploration were performed to understand)
 
 - user behavior
 - song metadata
@@ -47,7 +48,8 @@ Visualizations and statistical exploration were performed to understand:
 3️⃣ Feature Engineering
 
 Several behavioral and metadata features were created to improve predictive performance.
-Examples:
+
+Examples
 
 User behavior features
 - user_song_count
@@ -90,22 +92,21 @@ Several models were tuned using RandomizedSearchCV to improve performance.
 
 6️⃣ Model Evaluation
 
-Models were evaluated using the following metrics:
+Models were evaluated using the following metrics
 - Accuracy
 - Precision
 - Recall
 - F1 Score
 - ROC-AUC
 
-📈 Model Performance Comparison
+### **📈 Model Performance Comparison:**
 
 The trained models were evaluated and compared to identify the best-performing algorithms.
 The final results show that gradient boosting models such as LightGBM, XGBoost and CatBoost achieved the strongest performance for this task.
 
 <img width="560" height="659" alt="Performance Comparison" src="https://github.com/user-attachments/assets/1467b354-9b0f-4dc6-9448-ae6afba07510" />
 
-
-📂 Repository Structure
+### **📂 Repository Structure:**
 
 ```
 ML_Music_Recommendation/
@@ -126,7 +127,7 @@ ML_Music_Recommendation/
 └── requirements.txt
 ```
 
-🛠 Technologies Used
+### **🛠 Technologies Used:**
 
 - Python
 - pandas
@@ -139,7 +140,7 @@ ML_Music_Recommendation/
 - Seaborn
 
 
-🚀 Future Improvements
+### **🚀 Future Improvements:**
 
 Possible future enhancements include:
 - advanced user preference modeling
@@ -148,7 +149,7 @@ Possible future enhancements include:
 - hybrid collaborative filtering approaches
 
 
-👤 Author
+### **👤 Author:**
 
 Bhavvuk D Kalra
 
