@@ -1,7 +1,14 @@
 ## **🎵 Music Recommendation System – ML Model Comparison 🎵**
-**⭐ Best Model:** LightGBM  
+**⭐ Best Model:** LightGBM (AUC ~0.78)  
 **📊 Task:** Binary Classification  
 **🎯 Goal:** Predict whether a song should be recommended to a user
+
+### **📈 Model Performance Comparison:**
+
+The trained models were evaluated and compared to identify the best-performing algorithms.
+The final results show that gradient boosting models such as LightGBM, XGBoost and CatBoost achieved the strongest performance for this task.
+
+<img width="560" height="659" alt="Performance Comparison" src="https://github.com/user-attachments/assets/1467b354-9b0f-4dc6-9448-ae6afba07510" />
 
 ### **📌 Project Overview:**
 
@@ -10,6 +17,8 @@ The goal is to model user listening behavior and improve music recommendation sy
 The project explores multiple machine learning algorithms, performs extensive feature engineering, and compares model performance to identify the best predictive model.
 
 ### **📊 Dataset:**
+
+KKBox Music Recommendation Dataset (Kaggle)
 
 The dataset contains user-song interaction records along with metadata about songs and users.
 
@@ -101,13 +110,6 @@ Models were evaluated using the following metrics
 - Recall
 - F1 Score
 - ROC-AUC
-
-### **📈 Model Performance Comparison:**
-
-The trained models were evaluated and compared to identify the best-performing algorithms.
-The final results show that gradient boosting models such as LightGBM, XGBoost and CatBoost achieved the strongest performance for this task.
-
-<img width="560" height="659" alt="Performance Comparison" src="https://github.com/user-attachments/assets/1467b354-9b0f-4dc6-9448-ae6afba07510" />
 
 ### **📂 Repository Structure:**
 
