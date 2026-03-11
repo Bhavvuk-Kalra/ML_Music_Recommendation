@@ -8,7 +8,7 @@
 The trained models were evaluated and compared to identify the best-performing algorithms.
 The final results show that gradient boosting models such as LightGBM, XGBoost and CatBoost achieved the strongest performance for this task.
 
-<img width="700" alt="Performance Comparison" src="https://github.com/user-attachments/assets/1467b354-9b0f-4dc6-9448-ae6afba07510" />
+<img alt="Performance Comparison" src="https://github.com/user-attachments/assets/1467b354-9b0f-4dc6-9448-ae6afba07510" />
 
 ### **📌 Project Overview:**
 
