@@ -1,4 +1,7 @@
 ## **🎵 Music Recommendation System – ML Model Comparison 🎵**
+**⭐ Best Model:** LightGBM  
+**📊 Task:** Binary Classification  
+**🎯 Goal:** Predict whether a song should be recommended to a user
 
 ### **📌 Project Overview:**
 
